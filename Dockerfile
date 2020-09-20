@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant
+FROM homeassistant/home-assistant:0.115.2
 LABEL maintainer="mrflobow"
 
 RUN apk add ffmpeg
